@@ -1,0 +1,187 @@
+@import '~antd/dist/antd.css';
+
+.Header{
+  background-color: white;
+  padding: 0;
+  height: 46px;
+}
+
+.Content {
+  overflow: auto;
+
+}
+
+.Footer {
+  width: 100%;
+  margin: auto;
+  padding: 20px 0px !important;
+  overflow: auto;
+}
+
+.Layout {
+  background-color: white;
+}
+
+hr {
+  margin: 30px 10px;;
+}
+
+.social-icon {
+  padding: 5px;
+  margin: 5px;
+}
+
+.Padding{
+  margin: 20px 0;
+  padding: 20px 0;
+}
+
+.home, .Projects, .Contact, .Demo {
+  width: 90%;
+  margin: auto;
+}
+
+.title-text {
+  color: #fff;
+
+  /* font-family: 'Crimson Text', serif; */
+}
+
+.name{
+  line-height: 100px;
+  margin-top: 100px;
+  font-size: 60px;
+  font-family: 'Crimson Text', serif;
+  font-style: normal;
+}
+
+.title {
+  font-size: 24px;
+  font-family: 'Mina', sans-serif;
+}
+
+.title-background {
+  background-image: url('citybackground.jpg');
+  width: 100%;
+  background-size: 100% auto;
+  height: 500px;
+  background-repeat: no-repeat;
+}
+
+.ant-card-head, .ant-collapse-header{
+  background-color: #001529;
+}
+
+.ant-card-head-title, .ant-collapse-header{
+  font-size: 22px;
+  color: #fff !important;
+}
+
+.ant-collapse-header{
+  min-height: 62px;
+  line-height: 48px !important;
+  font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+
+.ant-collapse-item{
+  min-height: 62px;
+}
+
+.arrow{
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 1249px){
+  .title-background{
+      height: 400px;
+  }
+}
+
+@media only screen and (max-width: 849px){
+  .title-background{
+      height: 300px;
+  }
+  .name{
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 579px){
+  .title-background{
+      height: 200px;
+  }
+  .name{
+    margin-top: 30px;
+  }
+  .title-text {
+      line-height: 1em;
+  }
+  .block {
+    display: block;
+  }
+
+}
+
+@media only screen and (max-width: 449px){
+  .title-background{
+      height: 150px;
+  }
+  .name{
+    margin-top: 15px;
+  }
+  .title-text {
+      line-height: 0.8em;
+  }
+  .hidden {
+    display: none;
+  }
+}
+
+
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white !important;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.App {
+  width: 50%;
+  text-align: center;
+  margin: auto;
+}
+
+.loginButtons{
+  margin-top: 10px;
+
+}
+
+button {
+  margin: 5px;
+}
+ */
